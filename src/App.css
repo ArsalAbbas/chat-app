@@ -102,10 +102,11 @@ button:disabled {
 
 
 .sign-in {
-  color: #282c34;
-  background: white;
+  color: #282121;
+  background: rgb(255, 255, 255);
   max-width: 400px;
   margin: 0 auto;
+
 }
 
 
@@ -149,7 +150,7 @@ p {
   color: black;
 }
 
-img {
+.chatImg {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -159,4 +160,22 @@ img {
 .sign-out {
   background-color: rgb(109, 18, 18);
   /* z-index: 1; */
+}
+
+.text {
+  color: white;
+}
+
+.gImage {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* margin: 2px 5px; */
+}
+
+#memeImage {
+  width: 50%;
+  height: 50%;
+  /* border-radius: 50%; */
+  /* margin: 2px 5px; */
 }

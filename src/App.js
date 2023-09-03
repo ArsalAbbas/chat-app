@@ -12,7 +12,9 @@ function App() {
     <div className="App">
       <header></header>
       <section>
-        {user?<ChatRoom/> : <SignIn/>}
+        {user?<ChatRoom/> : 
+          <SignIn/>
+        }
       </section>
     </div>
   );

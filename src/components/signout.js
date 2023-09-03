@@ -1,8 +1,8 @@
-import {auth} from './auth.js'
+import API from './auth.js'
 
 function SignOut(){
-    return auth.currentUser && (
-      <button onClick={()=>auth.signOut()}>Sign Out</button>
+    return API.fbAuth.currentUser && (
+      <button onClick={()=>API.fbAuth.signOut()}>Sign Out</button>
     )
 }
 

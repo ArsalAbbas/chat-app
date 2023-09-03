@@ -9,7 +9,7 @@ body {
 }
 
 .App header {
-  /* background-color: #181717; */
+  background-color: #181717;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -156,7 +156,7 @@ img {
   margin: 2px 5px;
 }
 
-.signout {
-  background-color: red;
-  z-index: 1;
+.sign-out {
+  background-color: rgb(109, 18, 18);
+  /* z-index: 1; */
 }

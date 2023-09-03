@@ -31,7 +31,11 @@ function ChatRoom(){
     
     return (
       <>
-      <SignOut className='signout'/>
+      <header>
+        <h1>🗨️ TempChat</h1>
+        <SignOut />
+      </header>
+      {/* <SignOut /> */}
       <main>
       {messages && messages.map(msg=><ChatMessage key={msg.id} message={msg} />)}
       <div ref={dummy}></div>
